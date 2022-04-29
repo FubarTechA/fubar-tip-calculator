@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="app">
+        <div class="aside calc">
+          <section>
+            <div class="head">
+              <h2>Bill</h2>
+              <span class="spanone">message</span>
+            </div>
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="0"
+              class="inputBill"
+            />
+          </section>
+          <section class="tipDiv">
+            <h2>Select Tip %</h2>
+            <div class="tipPercent">
+              <div class="percent"><p>5%</p></div>
+              <div class="percent"><p>10%</p></div>
+              <div class="percent"><p>15%</p></div>
+              <div class="percent"><p>25%</p></div>
+              <div class="percent"><p>50%</p></div>
+              <!-- <div><p>custom</p></div> -->
+              <input
+                type="number"
+                name=""
+                id=""
+                class="custom"
+                placeholder="Custom"
+              />
+            </div>
+          </section>
+
+          <section class="people">
+            <div class="head">
+              <h2>Number of people</h2>
+              <span class="spantwo">message</span>
+            </div>
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="0"
+              class="inputPeople"
+            />
+          </section>
+        </div>
+        <div class="aside totals">
+          <div class="dash">
+            <section>
+              <p>Tip Amount</p>
+              <span>/ person</span>
+            </section>
+            <p class="dashAmount">$<span class="tipAmount">0.00</span></p>
+          </div>
+
+          <div class="dash">
+            <section>
+              <p>Total</p>
+              <span>/ person</span>
+            </section>
+            <p class="dashAmount">$<span class="totalAmount">0.00</span></p>
+          </div>
+
+          <button type="reset" class="reset">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

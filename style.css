@@ -1,0 +1,182 @@
+@font-face {
+  font-family: roboto;
+  src: url(/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5e4e7;
+}
+
+.app {
+  width: 60%;
+  height: 400px;
+  background-color: #fffffd;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside {
+  width: 48%;
+  height: 100%;
+}
+
+.totals {
+  box-sizing: border-box;
+  background-color: #084a4d;
+  border-radius: 20px;
+  padding: 25px 5%;
+}
+
+.dash {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dash section {
+  color: #fffffd;
+  margin-bottom: 40px;
+}
+
+.dash section p {
+  font-size: 18px;
+  word-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.dash section span {
+  font-size: 16px;
+  /* color: #f3f8fb; */
+  color: lightgray;
+}
+
+.dashAmount {
+  font-size: 40px;
+  color: #9edcd4;
+}
+
+.reset {
+  display: block;
+  margin-top: 130px;
+  width: 100%;
+  background-color: #0d686d;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fffffd;
+  font-size: 16px;
+}
+
+.calc h2 {
+  font-size: 18px;
+  color: #0d686d;
+  margin-bottom: 10px;
+}
+
+.tipDiv {
+  margin-top: 50px;
+}
+
+input[type="number"] {
+  direction: rtl;
+  width: 94%;
+  padding: 10px 3%;
+  border: 0;
+  background-color: #f3f8fb;
+  border-radius: 5px;
+}
+
+input[type="number"]::placeholder {
+  font-size: 18px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  text-align: right;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid red;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head span {
+  text-transform: capitalize;
+  color: #084a4d;
+  display: none;
+}
+
+.tipPercent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  gap: 10px;
+}
+.tipPercent div {
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  background-color: #084a4d;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #f3f8fb;
+}
+
+.tipPercent div p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.tipPercent div:active {
+  background-color: #9edcd4;
+  color: #084a4d;
+}
+
+.custom {
+  padding: 10px 10px 0;
+  border: 0;
+  background-color: #f3f8fb;
+  font-size: 18px;
+  color: #084a4d;
+}
+
+.custom::placeholder {
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  color: #084a4d;
+  font-weight: bolder;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #084a4d;
+  border-radius: 5px;
+}
+
+.people {
+  margin-top: 50px;
+}

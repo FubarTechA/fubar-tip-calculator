@@ -1,0 +1,6 @@
+background color - #c5e4e7
+dashboard - #084a4d
+button - #0d686d
+app background - #fffffd
+buttons - #f3f8fb
+
